@@ -1,0 +1,28 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.categories {
+    overflow-y: overlay; /* Change overflow to overflow-y */
+    text-decoration-line: underline;
+}
+
+.categories::-webkit-scrollbar {
+    width: 6px;
+}
+
+.categories::-webkit-scrollbar-thumb {
+    background-color: rgba(159, 159, 159);
+    border-radius: 20px;
+}
+
+.categories::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+
